@@ -4,7 +4,7 @@
     <!-- Regular grid structure -->
     <grid>
         <!-- Digital elevation model file path -->
-        <demfile>topo/paleo-tecto-map.csv</demfile>
+        <demfile>lem-outputs/topo/paleo-tecto-map.csv</demfile>
         <!-- Optional parameter (integer) used to decrease TIN resolution.
              The default value is set to 1. Increasing the factor
              value will multiply the digital elevation model resolution
@@ -27,7 +27,7 @@
         <!-- Relative sea-level position [m] -->
         <position>-15.0</position>
         <!-- Sea-level curve - (optional) -->
-        <curve>sea-level/Bintanja_sl.csv</curve>
+        <curve>lem-outputs/sea-level/Bintanja_sl.csv</curve>
     </sea>
 
     <!-- Precipitation structure -->
@@ -41,7 +41,7 @@
             <!-- Rain end time [a] -->
             <rend>-800000.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain9.csv</map>
+            <map>lem-outputs/precipitation/rain9.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -50,7 +50,7 @@
             <!-- Rain end time [a] -->
             <rend>-140000.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain8.csv</map>
+            <map>lem-outputs/precipitation/rain8.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -59,7 +59,7 @@
             <!-- Rain end time [a] -->
             <rend>-17000.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain7.csv</map>
+            <map>lem-outputs/precipitation/rain7.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -68,7 +68,7 @@
             <!-- Rain end time [a] -->
             <rend>-14700.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain6.csv</map>
+            <map>lem-outputs/precipitation/rain6.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -77,7 +77,7 @@
             <!-- Rain end time [a] -->
             <rend>-12900.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain5.csv</map>
+            <map>lem-outputs/precipitation/rain5.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -86,7 +86,7 @@
             <!-- Rain end time [a] -->
             <rend>-11700.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain4.csv</map>
+            <map>lem-outputs/precipitation/rain4.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -95,7 +95,7 @@
             <!-- Rain end time [a] -->
             <rend>-8326.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain3.csv</map>
+            <map>lem-outputs/precipitation/rain3.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -104,7 +104,7 @@
             <!-- Rain end time [a] -->
             <rend>-4200.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain2.csv</map>
+            <map>lem-outputs/precipitation/rain2.csv</map>
         </rain>
         <!-- Precipitation definition -->
         <rain>
@@ -113,7 +113,7 @@
             <!-- Rain end time [a] -->
             <rend>0.</rend>
             <!-- Precipitation value [m/a] - (optional) -->
-            <map>precipitation/rain1.csv</map>
+            <map>lem-outputs/precipitation/rain1.csv</map>
         </rain>
     </precipitation>
 
@@ -172,11 +172,11 @@
             <!-- Displacement end time [a] -->
             <dend>0.0</dend>
             <!-- Displacement map [m] -->
-            <dfile>tectonic/tecto-map.csv</dfile>
+            <dfile>lem-outputs/tectonic/tecto-map.csv</dfile>
         </disp>
     </tectonic>
 
     <!-- Output folder path -->
-    <outfolder>Bintanja</outfolder>
+    <outfolder>lem-outputs/Bintanja</outfolder>
 
 </badlands>

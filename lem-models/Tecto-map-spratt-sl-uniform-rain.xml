@@ -4,7 +4,7 @@
     <!-- Regular grid structure -->
     <grid>
         <!-- Digital elevation model file path -->
-        <demfile>topo/paleo-tecto-map.csv</demfile>
+        <demfile>lem-outputs/topo/paleo-tecto-map.csv</demfile>
         <!-- Optional parameter (integer) used to decrease TIN resolution.
              The default value is set to 1. Increasing the factor
              value will multiply the digital elevation model resolution
@@ -27,7 +27,7 @@
         <!-- Relative sea-level position [m] -->
         <position>0.</position>
         <!-- Sea-level curve - (optional) -->
-        <curve>sea-level/Spratt_sl.csv</curve>
+        <curve>lem-outputs/sea-level/Spratt_sl.csv</curve>
     </sea>
 
     <!-- Precipitation structure -->
@@ -100,11 +100,11 @@
             <!-- Displacement end time [a] -->
             <dend>0.0</dend>
             <!-- Displacement map [m] -->
-            <dfile>tectonic/tecto-map.csv</dfile>
+            <dfile>lem-outputs/tectonic/tecto-map.csv</dfile>
         </disp>
     </tectonic>
 
     <!-- Output folder path -->
-    <outfolder>uniform_rain</outfolder>
+    <outfolder>lem-outputs/uniform_rain</outfolder>
 
 </badlands>
