@@ -4,6 +4,10 @@ This repository contains input files and pre-/post- processing notebooks and scr
 
 The approach is based on a combination of landscape evolution and connectivity models. 
 
+## Docker image
+
+A docker container **geodels/gospl:bio** containing all the libraries required to run the models and the notebooks from this repository is available and can be downloaded following the approach presented [here](https://badlands.readthedocs.io/en/latest/install.html#docker).
+
 ## Drainage basin reorganisation and river capture
 
 <img width="806" alt="landscape_dynamic" src="https://user-images.githubusercontent.com/7201912/119785884-fecb8780-bf12-11eb-814d-fd730c90ebcf.png">
