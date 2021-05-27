@@ -21,7 +21,7 @@ A docker container **geodels/gospl:bio** containing all the libraries required t
 
 ## Landscape connectivity for the exposed Sunda Shelf
 
-<img width="701" alt="flow" src="https://user-images.githubusercontent.com/7201912/119787229-57e7eb00-bf14-11eb-83ce-e61b27c2abdc.png">
+<img width="806" alt="flow" src="https://user-images.githubusercontent.com/7201912/119787229-57e7eb00-bf14-11eb-83ce-e61b27c2abdc.png">
 
 ### Notebooks
 
